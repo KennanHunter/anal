@@ -4,6 +4,7 @@
 	"main": "src/index.ts",
 	"types": "src/index.ts",
 	"dependencies": {
-		"typescript": "^4.8.4"
+		"typescript": "^4.8.4",
+		"types": "*"
 	}
 }

@@ -2,6 +2,9 @@
 	"name": "anal",
 	"version": "0.0.0",
 	"private": true,
+	"engines": {
+		"node": ">=14.0.0"
+	},
 	"workspaces": [
 		"apps/*",
 		"packages/*"
@@ -9,19 +12,16 @@
 	"scripts": {
 		"build": "turbo run build",
 		"dev": "turbo run dev --parallel",
-		"lint": "turbo run lint",
 		"format": "prettier --w .",
+		"lint": "turbo run lint",
 		"prepare": "husky install"
 	},
+	"packageManager": "yarn@1.22.19",
+	"dependencies": {},
 	"devDependencies": {
 		"eslint-config-custom": "*",
 		"prettier": "latest",
 		"turbo": "latest",
 		"husky": "^8.0.0"
-	},
-	"engines": {
-		"node": ">=14.0.0"
-	},
-	"dependencies": {},
-	"packageManager": "yarn@1.22.19"
+	}
 }
