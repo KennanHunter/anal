@@ -33,6 +33,5 @@ yarn-error.log*
 # turbo
 .turbo
 
-# Controversial i know...
-yarn.lock
+# Use yarn
 package-lock.json
