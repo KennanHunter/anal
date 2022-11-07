@@ -1,4 +1,13 @@
 import { data } from "datalib";
-console.log(data());
+
+const val = data();
+
+fetch("http://localhost:8787", {
+	method: "POST",
+	headers: {
+		"Content-Type": "application/json",
+	},
+	body: JSON.stringify(val),
+});
 
 export {};

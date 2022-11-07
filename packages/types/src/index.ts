@@ -9,3 +9,7 @@ export interface Data {
 		height: number;
 	};
 }
+
+export interface ServerData extends Data {
+	country?: string;
+}

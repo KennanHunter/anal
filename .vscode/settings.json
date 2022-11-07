@@ -1,3 +1,9 @@
 {
-	"cSpell.words": ["datalib", "FOSS", "turborepo"]
+	"cSpell.words": [
+        "corsify",
+        "datalib",
+        "FOSS",
+        "itty",
+        "turborepo"
+    ]
 }

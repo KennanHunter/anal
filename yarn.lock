@@ -1331,6 +1331,21 @@ isobject@^3.0.1:
   resolved "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz"
   integrity sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==
 
+itty-cors@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/itty-cors/-/itty-cors-0.3.4.tgz#8c334ca053b659e754b054543b741fed76067826"
+  integrity sha512-rfI8rcU27+LHN2xuKaaT670mvfQNzfINFtpd0Z8Q2Nu8nP9cKzsd+kUEwY5DVcieF1CXhjpDO3FkS/litFnFYA==
+
+itty-router-extras@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/itty-router-extras/-/itty-router-extras-0.4.2.tgz#e46891ebea63f09ada74603649d8a6c4ce0c5df7"
+  integrity sha512-ppHaBzcTXs7idFSDISehG+8kif2/4aqLCfyY/Y/uIZv79sfEfNmTq9G+rDeqblun/VZRBiXZD8ztYmMS8EOsKw==
+
+itty-router@^2.6.6:
+  version "2.6.6"
+  resolved "https://registry.yarnpkg.com/itty-router/-/itty-router-2.6.6.tgz#78a08c3b7dc1bd90ce832cae8eff7e4cbfbf67ef"
+  integrity sha512-hIPHtXGymCX7Lzb2I4G6JgZFE4QEEQwst9GORK7sMYUpJvLfy4yZJr95r04e8DzoAnj6HcxM2m4TbK+juu+18g==
+
 jest-worker@^27.4.5:
   version "27.5.1"
   resolved "https://registry.npmjs.org/jest-worker/-/jest-worker-27.5.1.tgz"

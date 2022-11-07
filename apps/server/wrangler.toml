@@ -1,3 +1,8 @@
 name = "server"
 main = "src/index.ts"
 compatibility_date = "2022-11-07"
+
+[[kv_namespaces]]
+binding = "REQUESTS"
+id = "f62a773f94df4131a561ce6e891b8081"
+preview_id = "6927ac23696940cfa7aef6970ba57f2a"
