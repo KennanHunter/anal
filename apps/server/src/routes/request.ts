@@ -8,11 +8,6 @@ export const requestHandler = async (
 ) => {
 	if (!request)
 		return Response.json({ Error: "Must specify body" }, { status: 400 });
-	if (!request.json())
-		return Response.json(
-			{ Error: "Request must be json" },
-			{ status: 400 }
-		);
 
 	const cf = (request as any)
 		.cf as IncomingRequestCfPropertiesGeographicInformation;
@@ -23,5 +18,6 @@ export const requestHandler = async (
 	} as ServerData;
 
 	console.log(data);
+
 	return Response.json({ Status: "Successful" });
 };
